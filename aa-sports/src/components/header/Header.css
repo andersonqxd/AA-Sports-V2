@@ -1,0 +1,47 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #0D47A1;
+    /* azul escuro */
+    padding: 16px 32px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    position: relative;
+}
+
+.header-left .logo {
+    height: 48px;
+    width: auto;
+    border-radius: 5px;
+}
+
+.header-center {
+    display: flex;
+    gap: 32px;
+}
+
+.header-link {
+    color: #ffffff;
+    /* azul claro */
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+    transition: color 0.2s ease-in-out;
+}
+
+.header-link:hover {
+    color: #FFFFFF;
+}
+
+.header-right .cart-icon {
+    width: 50px;
+    height: auto;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+}
+
+.header-right .cart-icon:hover {
+    transform: scale(1.1);
+}
