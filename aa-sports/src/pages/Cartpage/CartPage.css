@@ -1,0 +1,169 @@
+/* VERSÃO FINAL E COMPLETA de src/pages/Cartpage/CartPage.css */
+
+/* --- Estilos Gerais da Página do Carrinho --- */
+.cart-page {
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  min-height: 50vh; /* Garante uma altura mínima para a página */
+}
+
+.cart-title {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 2rem;
+  color: #333;
+}
+
+/* --- ESTILOS PARA CARRINHO COM ITENS --- */
+
+.cart-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 30px;
+}
+
+.cart-items-list {
+  flex: 3;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.cart-item {
+  display: flex;
+  align-items: center;
+  background: #fff;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.cart-item img {
+  width: 80px;
+  height: 80px;
+  object-fit: contain;
+  border-radius: 4px;
+  margin-right: 20px;
+}
+
+.item-details {
+  flex-grow: 1;
+}
+
+.item-details h3 {
+  margin: 0 0 5px 0;
+  font-size: 1.1rem;
+}
+
+.item-details .item-price {
+  margin: 0;
+  font-weight: bold;
+  color: #0D47A1;
+}
+
+.remove-button {
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 8px 12px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.2s;
+}
+
+.remove-button:hover {
+  background-color: #c82333;
+}
+
+.cart-summary {
+  flex: 1;
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  position: sticky; /* Fica fixo enquanto scrolla */
+  top: 20px;
+}
+
+.cart-summary h3 {
+  margin-top: 0;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 10px;
+}
+
+.summary-total {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.2rem;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.checkout-button {
+  width: 100%;
+  padding: 15px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #fff;
+  background-color: #28a745;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: background-color 0.2s;
+}
+
+.checkout-button:hover {
+  background-color: #218838;
+}
+
+/* --- ESTILOS PARA CARRINHO VAZIO --- */
+
+.empty-cart-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.empty-cart-icon {
+  color: #6a0dad; /* Roxo para o ícone */
+  margin-bottom: 24px;
+}
+
+.empty-cart-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #333;
+  margin: 0 0 8px 0;
+}
+
+.empty-cart-subtitle {
+  font-size: 1rem;
+  color: #666;
+  margin-bottom: 32px;
+}
+
+.explore-button {
+  background-color: transparent;
+  color: #6a0dad;
+  border: 2px solid #6a0dad;
+  padding: 12px 30px;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.explore-button:hover {
+  background-color: #6a0dad;
+  color: #fff;
+}
