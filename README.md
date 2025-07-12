@@ -54,8 +54,6 @@ Para executar este projeto na sua máquina, siga os passos abaixo:
 
 ## 📸 Screenshots
 
-*(DICA: Substitua os links abaixo pelas suas próprias imagens para mostrar o seu incrível trabalho!)*
-
 **Página Inicial**
 ![Página Inicial](<img width="1350" height="593" alt="home" src="https://github.com/user-attachments/assets/f87bf4a9-cc97-4bf8-9c18-849d594e808a" />)
 
