@@ -2,7 +2,7 @@
 
 import React from "react";
 import { Routes, Route } from "react-router-dom";
-import Home from "../pages/Home";
+import Home from "../pages/Home/Home";
 // 1. O caminho agora aponta para a pasta e ficheiro corretos
 import Products from "../pages/Products/Products"; 
 import CartPage from "../pages/Cartpage/CartPage";

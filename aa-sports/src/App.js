@@ -6,6 +6,7 @@ import { CartProvider } from './contexts/CartContext';
 
 // 1. Importamos o componente Header
 import Header from './components/header/Header';
+import Footer from './components/footer/Footer';
 
 function App() {
   return (
@@ -16,7 +17,10 @@ function App() {
       
       {/* As rotas são renderizadas abaixo do cabeçalho */}
       <Routers />
+      <Footer/>
     </CartProvider>
+    
+
   );
 }
 

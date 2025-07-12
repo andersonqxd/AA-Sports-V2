@@ -1,10 +1,8 @@
-/* NOVO CÓDIGO para src/components/header/Header.css */
-
 .header {
-  background-color: #0D47A1; /* Mantemos o azul escuro */
+  background-color: #0D47A1; 
   padding: 10px 0;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  position: sticky; /* Opcional: faz o header ficar fixo no topo */
+  position: sticky; 
   top: 0;
   z-index: 1000;
 }
@@ -29,7 +27,7 @@
 
 .main-nav {
   display: flex;
-  gap: 40px; /* Mais espaço entre "Home" e "Produtos" */
+  gap: 40px; 
 }
 
 .nav-link {
@@ -38,11 +36,10 @@
   font-size: 1.1rem;
   font-weight: 500;
   padding: 8px 4px;
-  position: relative; /* Base para o sublinhado animado */
+  position: relative; 
   transition: color 0.3s ease;
 }
 
-/* Linha animada em baixo dos links */
 .nav-link::after {
   content: '';
   position: absolute;
@@ -50,43 +47,43 @@
   left: 0;
   width: 0;
   height: 2px;
-  background-color: #4EC3F7; /* Azul claro para o destaque */
+  background-color: #4EC3F7; 
   transition: width 0.3s ease;
 }
 
 .nav-link:hover {
-  color: #4EC3F7; /* Muda a cor ao passar o rato */
+  color: #4EC3F7; 
 }
 
 .nav-link:hover::after {
-  width: 100%; /* A linha aparece ao passar o rato */
+  width: 100%; 
 }
 
-/* ESTILO PARA O LINK ATIVO! */
+
 .nav-link.active {
-  color: #4EC3F7; /* Cor de destaque para a página atual */
+  color: #4EC3F7; 
   font-weight: bold;
 }
 
 .nav-link.active::after {
-  width: 100%; /* A linha está sempre visível na página atual */
+  width: 100%; 
 }
 
-/* --- ESTILOS DO CARRINHO --- */
+
 .cart-link {
-  position: relative; /* Base para o contador */
+  position: relative;
 }
 
 .cart-link img {
     height: 28px;
 }
 
-/* O nosso contador de itens! */
+
 .cart-count {
   position: absolute;
-  top: -5px;      /* Puxa um pouco para cima */
-  right: -10px;   /* Puxa um pouco para a direita */
-  background-color: #dc3545; /* Vermelho para chamar a atenção */
+  top: -5px;      
+  right: -10px;   
+  background-color: #dc3545; 
   color: white;
   border-radius: 50%;
   width: 22px;
@@ -96,5 +93,5 @@
   align-items: center;
   font-size: 0.8rem;
   font-weight: bold;
-  border: 2px solid #0D47A1; /* Borda para separar do fundo */
+  border: 2px solid #0D47A1; 
 }
