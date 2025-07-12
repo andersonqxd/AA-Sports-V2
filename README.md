@@ -57,16 +57,16 @@ Para executar este projeto na sua máquina, siga os passos abaixo:
 *(DICA: Substitua os links abaixo pelas suas próprias imagens para mostrar o seu incrível trabalho!)*
 
 **Página Inicial**
-![Página Inicial](../aa-sports/src/assets/img/prints/home.png)
+![Página Inicial](<img width="1350" height="593" alt="home" src="https://github.com/user-attachments/assets/f87bf4a9-cc97-4bf8-9c18-849d594e808a" />)
 
 **Carrinho de Compras Vazio**
-![Carrinho de Compras Vazio](../aa-sports/src/assets/img/prints/carvazio.png)
+![Carrinho de Compras Vazio](<img width="1365" height="598" alt="carvazio" src="https://github.com/user-attachments/assets/26d540af-e3a3-45c2-b29e-7e8b432f4074" />)
 
 **Carrinho de Compras**
-![Carrinho de Compras](../aa-sports/src/assets/img/prints/carrinho.png)
+![Carrinho de Compras](<img width="1365" height="600" alt="carrinho" src="https://github.com/user-attachments/assets/6317b987-1b5f-4adc-bacc-c26925dd977c" />)
 
 **Página de Checkout**
-![Página de Checkout](../aa-sports/src/assets/img/prints/checkout.png)
+![Página de Checkout](<img width="1351" height="596" alt="checkout" src="https://github.com/user-attachments/assets/529bb032-d198-4425-8f51-2445706e72a9" />)
 
 
 ---
