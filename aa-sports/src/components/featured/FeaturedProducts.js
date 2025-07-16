@@ -9,7 +9,7 @@ function getRandomProducts(products, count = 8) {
 }
 
     export default function FeaturedProducts() {
-    const randomProducts = getRandomProducts(products, 8);
+    const randomProducts = getRandomProducts(products, 10);
 
     return (
         <div className="product-grid">
