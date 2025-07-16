@@ -113,5 +113,101 @@ export const products = [
     name: "Bicicleta Aro 29 KRW",
     price: 1899.00,
     image: "20.webp"
-  }
+  },
+  {
+    id: 21,
+    name: "Tênis Reebok Nan0 X3 Unissex",
+    price: 699.99,
+    image: "21.webp"
+  },
+  {
+    id: 22,
+    name: "Tênis Mizuno Wave Falcon 5 Masculino",
+    price: 274.54,
+    image: "22.webp"
+  },
+  {
+    id: 23,
+    name: "Mochila Olympikus Esportiva 15L",
+    price: 199.99,
+    image: "23.webp"
+  },
+  {
+    id: 24,
+    name: "Bermuda Fila Trace elastic Masculina",
+    price: 85.00,
+    image: "24.webp"
+  },
+  {
+    id: 25,
+    name: "Tênis Puma Cell Lightpulse BDP",
+    price: 474.90,
+    image: "25.webp"
+  },
+  {
+    id: 26,
+    name: "Tênis Olympikus Difuse 5 Masculino",
+    price: 284.99,
+    image: "26.webp"
+  },
+  {
+    id: 27,
+    name: "Mochila Yins Brasil Casual 17",
+    price: 28.49,
+    image: "27.webp"
+  },
+  {
+    id: 28,
+    name: "Bermuda Adidas 3S Masculina",
+    price: 149.90,
+    image: "28.webp"
+  },
+  {
+    id: 29,
+    name: "Mala Adidas Duffel Linear",
+    price: 349.99,
+    image: "29.webp"
+  },
+  {
+    id: 30,
+    name: "Tênis Asics Patriot 13 Masculino",
+    price: 265.99,
+    image: "30.webp"
+  },
+  {
+    id: 31,
+    name: "Tênis Olympikus Index 3 Masculino",
+    price: 192.28,
+    image: "31.webp"
+  },
+  {
+    id: 32,
+    name: "Tênis Okley Hades Feminino",
+    price: 180.49,
+    image: "32.webp"
+  },
+  {
+    id: 33,
+    name: "Tênis Olympikus Perfect",
+    price: 283.40,
+    image: "33.webp"
+  },
+  {
+    id: 34,
+    name: "Tênis Mizuno Space 3",
+    price: 297.82,
+    image: "34.webp"
+  },
+  {
+    id: 35,
+    name: "Calça Goney Workout Masculina",
+    price: 41.32,
+    image: "35.webp"
+  },
+  {
+    id: 36,
+    name: "Tênis Olympikus Casual Running",
+    price: 254.39,
+    image: "36.webp"
+  },
 ];
