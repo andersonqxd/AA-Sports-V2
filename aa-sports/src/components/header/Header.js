@@ -1,9 +1,7 @@
-// VERSÃO FINAL E CORRIGIDA para src/components/header/Header.js
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 import { useCart } from '../../contexts/CartContext';
 
-// Os caminhos corretos, voltando duas pastas para trás
 import logo from '../../assets/icons/logo/logo.png';
 import cart from '../../assets/icons/logo/cart.png';
 
@@ -26,6 +24,9 @@ function Header() {
           <NavLink to="/produtos" className={({ isActive }) => (isActive ? 'nav-link active' : 'nav-link')}>
             Produtos
           </NavLink>
+          <NavLink to="/suplementos" className={({ isActive }) => (isActive ? 'nav-link active' : 'nav-link')}>
+            Suplementos
+          </NavLink> {/* ✅ Novo botão aqui */}
         </nav>
 
         <NavLink to="/carrinho" className="cart-link">
