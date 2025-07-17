@@ -1,25 +1,25 @@
 export const products = [
   {
     id: 1,
-    name: "Camiseta Básica Branca",
+    name: "Casaco Dri-Fit Preto",
     price: 49.90,
     image: "1.jpg"
   },
   {
     id: 2,
-    name: "Calça Jeans Azul",
+    name: "Tênis Adidas Breaknet Feminino - Preto+Off White ",
     price: 119.90,
     image: "2.jpg"
   },
   {
     id: 3,
-    name: "Tênis Esportivo Preto",
+    name: "Bicicleta Aro 29 Dropp SW 24 Vel Câmbio Shimano Quadro Alumínio MTB",
     price: 199.90,
     image: "3.jpg"
   },
   {
     id: 4,
-    name: "Boné Vermelho",
+    name: "Tênis Asics Gel-Electrus 2 Masculino ",
     price: 39.90,
     image: "4.jpg"
   },
@@ -37,37 +37,37 @@ export const products = [
   },
   {
     id: 7,
-    name: "Camisa do Palmeiras",
+    name: "Camisa do Fluminense",
     price: 189.99,
     image: "7.webp"
   },
   {
     id: 8,
-    name: "Camisa do Santos",
+    name: "Camisa do Internacional",
     price: 189.99,
     image: "8.webp"
   },
   {
     id: 9,
-    name: "Camisa do São Paulo",
+    name: "Camisa do Palmeiras",
     price: 189.99,
     image: "9.webp"
   },
   {
     id: 10,
-    name: "Camisa do Corinthians",
+    name: "Camisa Roma Home 2024/2025 ",
     price: 189.99,
     image: "10.webp"
   },
   {
     id: 11,
-    name: "Camisa de time",
+    name: "Camisa do Santos",
     price: 189.99,
     image: "11.webp"
   },
   {
     id: 12,
-    name: "Camisa de time",
+    name: "Camisa do São Paulo",
     price: 189.99,
     image: "12.webp"
   },
