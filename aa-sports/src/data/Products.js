@@ -266,19 +266,19 @@ export const products = [
     price: 199.99,
     image: "45.webp"
   },
-   {
+    {
     id: 46,
     name: "Mini Bola PUMA Cumbre Oficial Conmebol Copa América",
     price: 59.99,
     image: "46.webp"
   },
-   {
+    {
     id: 47,
     name: "Mini Bola Orbita LaLiga 1 MS Espanha",
     price: 59.99,
     image: "47.webp"
   },
-   {
+    {
     id: 48,
     name: "Bola PUMA Cumbre Oficial Conmebol Copa America HYB",
     price: 59.99,
@@ -362,4 +362,127 @@ export const products = [
     price: 249.99,
     image: "61.webp"
   },
+  {
+    id: 62,
+    name: "Tênis Adidas Adizero Drive Rc Feminino - Branco+prata",
+    price:899.99,
+    image: "62.webp"
+  },
+  {
+    id: 63,
+    name: "Kit Meia Adidas Cano Médio 3 Listras 3 Pares - Cinza",
+    price: 56.99,
+    image: "63.webp"
+  },
+  {
+    id: 64,
+    name: "Tênis Fila Racer Speedzone Feminino - Vermelho+Laranja",
+    price: 499.99,
+    image: "64.webp"
+  },
+  {
+    id: 65,
+    name: "Top Authen Grit Bossa Reto Bolso justavel",
+    price: 299.80,
+    image: "65.webp"
+  },
+  {
+    id: 66,
+    name: "Bola de Campo Umbro Neo Trainer II",
+    price:56.99,
+    image: "66.webp"
+  },
+  {
+    id: 67,
+    name: "Bicicleta Aro 29 Drop sw 24",
+    price: 882.55,
+    image: "67.webp"
+  },
+  {
+    id: 68,
+    name: "Mochila Adidas Classic Logo Linear",
+    price: 132.99,
+    image: "68.webp"
+  },
+  {
+    id: 69,
+    name: "Mochila Adidas Linear Backpack",
+    price:128.24,
+    image: "69.webp"
+  },
+  {
+    id: 70,
+    Mochilar: "Mochila Adidas Classica",
+    price: 142.49,
+    image: "70.webp"
+  },
+  {
+    id: 71,
+    name: "Mochila Hang Loose Esportiva",
+    price: 137.62,
+    image: "71.webp"
+  },
+  {
+    id: 72,
+    name: "Mochila Hang Loose Refoçada",
+    price: 61.12,
+    image: "72.webp"
+  },
+  {
+    id: 73,
+    name: "Chuteira de Campo Puma Rapido III",
+    price: 142.49,
+    image: "73.webp"
+  },
+  {
+    id: 74,
+    name: "Chuteria Campo Predator Artilheira",
+    price: 170.99,
+    image: "74.webp"
+  },
+  {
+    id: 75,
+    name: "Chuteira de Campo Luna II",
+    price: 484.49,
+    image: "75.webp"
+  },
+  {
+    id: 76,
+    name: "Chuteira Campo Umbro Class",
+    price:139.90,
+    image: "76.webp"
+  },
+  {
+    id: 77,
+    name: "Chuteira Campo Umbro On,",
+    price: 75.99,
+    image: "77.webp"
+  },
+  {
+    id: 78,
+    name:"Chuteria Futsal Umbro Pro 5",
+    price: 256.99,
+    image: "78.webp"
+  },
+  {
+    id: 79,
+    name: "Chuteira OXN Velox 4 neo campo",
+    price: 74.89,
+    image: "79.webp"
+  },
+  {
+    id: 80,
+    name: "Chuteira Botinha De Campo + Meião + Caneleira + Porta Chuteira A7 - Preto",
+    price: 199.90,
+    image: "80.webp"
+  },
+  {
+    id: 81,
+    name: "Tênos Nike Air Max alpha trainer 6",
+    price: 389.99,
+    image: "81.webp"
+  },
+  // {
+  //   id: 82,
+  // }
 ];
