@@ -1,6 +1,7 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 import { useCart } from '../../contexts/CartContext';
+import { FaUserCircle } from 'react-icons/fa'; // ✅ ícone de usuário
 
 import logo from '../../assets/icons/logo/logo.png';
 import cart from '../../assets/icons/logo/cart.png';
@@ -26,15 +27,19 @@ function Header() {
           </NavLink>
           <NavLink to="/suplementos" className={({ isActive }) => (isActive ? 'nav-link active' : 'nav-link')}>
             Suplementos
-          </NavLink> {/* ✅ Novo botão aqui */}
+          </NavLink>
         </nav>
 
-        <NavLink to="/carrinho" className="cart-link">
-          <img src={cart} alt="Carrinho de compras" />
-          {cartItems.length > 0 && (
-            <span className="cart-count">{cartItems.length}</span>
-          )}
-        </NavLink>
+        <div className="header-icons">
+          <NavLink to="/carrinho" className="cart-link">
+            <img src={cart} alt="Carrinho de compras" />
+            {cartItems.length > 0 && <span className="cart-count">{cartItems.length}</span>}
+          </NavLink>
+
+          <NavLink to="/login" className="user-link">
+            <FaUserCircle size={28} /> {/* ícone de usuário contorno */}
+          </NavLink>
+        </div>
       </div>
     </header>
   );
