@@ -1,7 +1,7 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 import { useCart } from '../../contexts/CartContext';
-import { FaUserCircle } from 'react-icons/fa'; // ✅ ícone de usuário
+import { FaUserCircle } from 'react-icons/fa';
 
 import logo from '../../assets/icons/logo/logo.png';
 import cart from '../../assets/icons/logo/cart.png';
@@ -37,7 +37,7 @@ function Header() {
           </NavLink>
 
           <NavLink to="/login" className="user-link">
-            <FaUserCircle size={28} /> {/* ícone de usuário contorno */}
+            <FaUserCircle size={28} />
           </NavLink>
         </div>
       </div>
